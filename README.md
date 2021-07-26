@@ -1,5 +1,5 @@
 # Fello Project
-<img src="https://github.com/abdulrehmank7/fello-project/blob/master/fello_project/ezgif.com-gif-maker%20(1).gif" width="40%" height="40%"> 
+<img src="https://github.com/abdulrehmank7/fello-project/blob/master/fello_project/ezgif.com-gif-maker%20(1).gif" width="20%" height="20%"> 
 
 
 # Features:
