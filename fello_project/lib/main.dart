@@ -1,4 +1,5 @@
 import 'package:fello_project/screens/home_screen.dart';
+import 'package:fello_project/screens/news_screen.dart';
 import 'package:fello_project/utility/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -18,9 +19,10 @@ class MyApp extends StatelessWidget {
         primaryColor: colorPrimary,
         accentColor: colorAccent,
       ),
-      home: const HomeScreen(),
+      home: const NewsScreen(),
       routes: {
         HomeScreen.id: (context) => const HomeScreen(),
+        NewsScreen.id: (context) => const NewsScreen(),
       },
     );
   }

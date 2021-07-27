@@ -1,4 +1,3 @@
-import 'package:fello_project/utility/colors.dart';
 import 'package:fello_project/utility/common.dart';
 import 'package:fello_project/utility/constant.dart';
 import 'package:flutter/material.dart';
@@ -91,8 +90,9 @@ class _HomeScreenState extends State<HomeScreen> {
     final cloud2 = Positioned(top: 128, right: -48, child: imgCloud);
 
     return Scaffold(
+      bottomNavigationBar: getBottomNav(context),
       body: Container(
-        color: colorPrimary,
+        color: Colors.blue,
         child: Stack(
           children: [
             brickLayer,
